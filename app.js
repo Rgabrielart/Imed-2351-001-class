@@ -1,10 +1,10 @@
-Var life = 100;
+var life = 100;
 
 life= life -10;
 // 90 
 
 
-Var name = " life "; // giving it a name 
+var name = "Dev Ed"; // giving it a name 
 
 
 
