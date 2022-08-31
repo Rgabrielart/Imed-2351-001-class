@@ -1,10 +1,11 @@
-var life = 100;
+var life = 100;// this is my life bar number
 
-life= life -10;
-// 90 
+life = life - 10;
+
+ 
 
 
-var name = "Dev Ed"; // giving it a name 
+var name = "Dev Ed"; // this is the name displayed in the game string 
 
 
 
