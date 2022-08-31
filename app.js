@@ -1,8 +1,7 @@
-Var a = 100
+Var life = 100
 
-a=a-10
+life= life -10
 // 90 
-a=a-10 // 80 
 
 
 
@@ -13,4 +12,5 @@ a=a-10 // 80
 
 
 
-console.log( a ) ;
+
+console.log(life);
