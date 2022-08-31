@@ -13,4 +13,4 @@ a=a-10 // 80
 
 
 
-console.log('A') ;
+console.log( a ) ;
