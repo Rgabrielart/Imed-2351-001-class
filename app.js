@@ -26,4 +26,4 @@ const F = 9; // variable using const
 
 
 
-console.log("{life}.{x}.{a}.{y}.{z}.{f}");
+console.log('{life}${x}${a}${y}${z}${f}');
