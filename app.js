@@ -65,3 +65,6 @@ score =score +num
 }
 addpoints(5);
 console.log
+
+
+
