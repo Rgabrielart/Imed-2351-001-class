@@ -33,9 +33,9 @@ function toUpper(text) {
 toUpper(name);
 toUpper(youtuber);
 
-var carNames
+let carNames;
 
-function carNames(firstname){
+function carNames =(firstname){
 alert(firstname + "niceCars");
 
 }
@@ -45,7 +45,7 @@ firstname("toyota");
 firstname("camry");
 
 carNames();
-console.log
+console.log;
 
 
 var score=0;
