@@ -14,9 +14,20 @@ count = count + 1;
 }
 
 
+
+
+
 const text = document.querySelector(".title");   // practice from video
 const changeColor = document.querySelector("changeColor");
-text.style.backgroundChange = "red";
+text.style.backgroundColor = "red";
+
+
+
+
+
+
+
+
 
 
 const btn = document.querySelector('#btn')             // loop with color
