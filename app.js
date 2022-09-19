@@ -14,4 +14,9 @@ count = count + 1;
 }
 
 
+const element = document.querySelector('.sure');
+    element.style.color = 'green';
+;
+
+
 
