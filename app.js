@@ -14,11 +14,11 @@ count = count + 1;
 }
 
 
-const button = document.querySelector('button');
-button.addEventListener('click', () => {
-    const element = document.querySelector('.demo');
-    element.style.color = 'green';
-});
+const text = document.querySelector(".title");
+const changeColor = document.querySelector("changeColor");
+text.style.backgroundColor = "red";
+
+
 
 
 
