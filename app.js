@@ -7,3 +7,11 @@ for (let i = 1; i <= n; i++) {
 
 
 
+while (count < 5) {              // while loop 
+console.log("im doing while loop");
+console.log("javascript is hard");
+count = count + 1;
+}
+
+
+
