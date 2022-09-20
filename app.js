@@ -42,5 +42,5 @@ btn.addEventListener('click', () => {
 
 
 
-const userlist = querySelectorAll('.name-list li');
+const userlist = querySelectorAll('.name-list li'); // list color 
 console.log(userList);
