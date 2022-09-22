@@ -4,13 +4,16 @@ for (let i = 1; i <= n; i++) {
 }
 
 
-
-
+var count = 3; 
+var i = 5;
 
 while (count < 5) {              // while loop 
+    let text = "";
 console.log("im doing while loop");
 console.log("javascript is hard");
 count = count + 1;
+text+="<br>Number of dogs is " + i;
+i++;
 }
 
 
@@ -30,17 +33,25 @@ text.style.backgroundColor = "red";
 
 
 
-const btn = document.querySelector('#btn')             // loop with color
+const btn = document.querySelector('#btn');             // loop with color
 btn.addEventListener('click', () => {
-    const h1 = document.querySelector('h1')
+    const h1 = document.querySelector('h1');
     const colors = ['red', 'yellow', 'brown', 'green', 'blue']
     for (let i = 0; i < colors.length; i++) {
-        h1.style.color = colors[i]
+        h1.style.color = colors[i];
 
     }
-})
+});
 
 
 
-const userlist = querySelectorAll('.name-list li'); // list color 
-console.log(userList);
+const userlist = document.querySelectorAll('.name-list li'); //user  list color 
+console.log(userlist);
+
+
+
+
+
+
+
+
