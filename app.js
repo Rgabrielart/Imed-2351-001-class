@@ -47,7 +47,12 @@ btn.addEventListener('click', () => {
 
 const userlist = document.querySelectorAll('.name-list li'); //user  list color 
 console.log(userlist);
+function myFunction(selectTag) {
+    var listValue = selectTag.options[selectTag.selectedIndex].text;
+    document.getElementById('name-list li').style.listStyleType = listValue;
+  }
 
+console.log;
 
 
 
