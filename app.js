@@ -45,7 +45,7 @@ btn.addEventListener('click', () => {
 
 
 
-const userlist = document.querySelectorAll('.name-list li'); //user  list color 
+const userlist = document.querySelectorAll('name-list li'); //user  list color 
 console.log(userlist);
 function myFunction(selectTag) {
     var listValue = selectTag.options[selectTag.selectedIndex].text;
@@ -54,9 +54,22 @@ function myFunction(selectTag) {
 
 console.log;
 
+const list = document.querySelector("name-list li");
+const listItems = document.querySelector("name-list");
+list.appendChild(listItem.cloneNode(true));
 
 
+document.body.appendChild();
+
+addlistBtn.addeventListener("click",function(){
+const newli = document.createElement("button");
+const buttoncontent = document.createTextNode(listInput.value);
+newbutton.appendChild(licontent);
+
+userlist.appendChild(newbutton);
+
+});
 
 
-
-
+const listinput = document.querySelector(".listInput");
+console.log(listinput.value);
