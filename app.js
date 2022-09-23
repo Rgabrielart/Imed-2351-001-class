@@ -79,3 +79,18 @@ console.log(listinput.value);
 
 
 document.getElementById(".namelist").style.backgroundColor = 'lightgreen';
+
+
+const strawberry = document.getElementById('strawberry');
+
+strawberry.addEventListener('click', function onClick() {
+  strawberry.style.backgroundColor = 'salmon';
+  strawberry.style.color = 'white';
+});
+
+
+const chocolate = document.getElementById('chocolate');
+chocolate.addEventListener('click', function onClick() {
+    chocolate.style.backgroundColor = 'salmon';
+    chocolate.style.color = 'brown';
+  });
