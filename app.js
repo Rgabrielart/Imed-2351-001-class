@@ -81,7 +81,7 @@ console.log(listinput.value);
 document.getElementById(".namelist").style.backgroundColor = 'lightgreen';
 
 
-const strawberry = document.getElementById('strawberry');
+const strawberry  = document.getElementById('strawberry');
 
 strawberry.addEventListener('click', function onClick() {
   strawberry.style.backgroundColor = 'salmon';
