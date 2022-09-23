@@ -56,12 +56,13 @@ console.log;
 
 const list = document.querySelector("name-list li");
 const listItems = document.querySelector("name-list");
-list.appendChild(listItem.cloneNode(true));
 
 
-document.body.appendChild();
 
-addlistBtn.addeventListener("click",function(){
+ 
+
+
+namelist.addeventListener("click",function(){
 const newli = document.createElement("button");
 const buttoncontent = document.createTextNode(listInput.value);
 newbutton.appendChild(licontent);
@@ -73,3 +74,8 @@ userlist.appendChild(newbutton);
 
 const listinput = document.querySelector(".listInput");
 console.log(listinput.value);
+
+
+
+
+document.getElementById(".namelist").style.backgroundColor = 'lightgreen';
